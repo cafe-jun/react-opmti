@@ -1,10 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Button from "./components/Button";
+import TextInput from "./components/TextInput";
 
 function App() {
   return (
     <div className="App">
-      <div></div>
+      <div>
+        <TextInput />
+        <Button />
+      </div>
     </div>
   );
 }
