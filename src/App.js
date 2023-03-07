@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Button from "./components/Button";
+import Button from "./components/common/element/Button";
 import TextInput from "./components/TextInput";
 
 function App() {
